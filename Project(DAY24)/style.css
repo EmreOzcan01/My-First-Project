@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url('./images/galaxy.gif');
+}
+
+#head {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    font-size: 50px;
+    top: 5%;
+}
+
+span {
+    position: relative;
+    top: 13%;
+    left: 30%;
+}
+
+select:invalid {
+    color: #8B8B8B;
+}
+
+select {
+    text-align: center;
+}
+
+span input, span select, span button {
+    font-size: 20px;
+    height: 40px;
+}
+
+#foot {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 1000px;
+    height: 540px;
+    top: 18%;
+    left: 16%;
+}
+
+#mass {
+    display: none;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    left: 25%;
+    top: 35%;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    width: 50%;
+    height: 12%;
+}
+
+img {
+    display: none;
+    position: relative;
+    width: 450px;
+    height: 450px;
+    top: 5%;
+    left: 3%;
+}
+
+#didNot {
+    display: none;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    left: 14%;
+    top: 35%;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    width: 70%;
+    height: 12%;
+}
+
+#ask {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    width: 80%;
+    height: 12%;
+    left: 9%;
+}
+
+#askDiv {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    top: -65%;
+    left: 55%;
+    width: 40%;
+    height: 60%;
+}
+
+#gravity {
+    background-color: rgba(255, 255, 255, 0.2);
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    top: 15%;
+    left: 25%;
+    padding-top: 19%;
+    font-size: 30px;
+    width: 50%;
+    height: 60%;
+    border-radius: 100%;
+}
+
+
+
+
